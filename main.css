@@ -1,0 +1,73 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #64b7ff;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+
+}
+
+header ul {
+    float: right;
+    background-color: white;
+}
+
+.button {
+    margin: 10px 10px 10px 10px;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+    width: 80px;
+    font-size: large;
+    background-color: #0080ff;
+    color: white;
+    list-style: none;
+    text-align: center;
+    float: right;
+    border-radius: 7px;
+    border-style: none;
+}
+
+#signupbox {
+    width: 15%;
+    margin: 5em auto;
+    padding: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+}
+
+form button {
+    font-size: 16px;
+    margin: 10px 10px 0;
+    padding: 10px;
+    font-size: large;
+    background-color: #0080ff;
+    color: white;
+    border: 1px solid grey;
+}
+
+.icondiv {
+    margin: 40px 0 0;
+}
+
+.icondiv img {
+    max-width: 50px;
+}
